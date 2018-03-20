@@ -1,0 +1,106 @@
+/*inline css*/
+/*Header*/
+.title-top {
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+.title-top > p {
+  font-weight: bold;
+  font-size: 15px;
+}
+.second-title {
+  background-color: #dc143c;
+  font-family: sans-serif;
+  padding: 30px 0 30px 20px;
+}
+.first-line {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #fff;
+}
+.second-line :first-child {
+  font-weight: bold;
+  font-size: 11px;
+  color: #c0c0c0;
+}
+.second-line:nth-child(2) {
+  font-size: 8px;
+}
+/*Article*/
+.container p {
+  font-size: 12px;
+}
+.container li {
+  font-size: 12px;
+}
+
+figcaption {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/*Pictures-right*/
+figure {
+  border: 1px solid #000000;
+  background-color: #d3d3d3;
+  float: right;
+}
+/*Pictures-left*/
+img {
+  float: left;
+}
+
+.clear-fix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*First-container*/
+/*figure*/
+.white-bear {
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+/*First-paragraph*/
+.first {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+}
+
+/*Second-container*/
+/*Second-paragraph*/
+.second {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+}
+
+/*Third-container*/
+/*img*/
+.happy-bear {
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+/*Third-paragraph*/
+.third {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+}
+
+/*Fourth-container*/
+/*Fourth-paragraph*/
+.fourth {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+}
+
+/*https://developer.mozilla.org/samples/cssref/css-positioning.html*/
