@@ -31,11 +31,38 @@ h1 {
   font-size: 8px;
 }
 /*Article*/
-.container p {
-  font-size: 12px;
+
+article {
+  margin: 70px 90px;
 }
-.container li {
-  font-size: 12px;
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.first > p {
+  font-size: 16px;
+}
+
+.second > p {
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+.first > p > ul {
+  font-size: 16px;
+}
+
+/*Pictures on the right side*/
+
+.hero {
+  border: 1px solid #000000;
+  background-color: #d3d3d3;
+  float: right;
+  width: 30;
+  padding: 0.5em;
 }
 
 figcaption {
@@ -44,63 +71,9 @@ figcaption {
   font-weight: 600;
 }
 
-/*Pictures-right*/
-figure {
-  border: 1px solid #000000;
-  background-color: #d3d3d3;
-  float: right;
-}
-/*Pictures-left*/
-img {
+/*Pictures on the left side*/
+.second-image {
   float: left;
-}
-
-.clear-fix::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-/*First-container*/
-/*figure*/
-.white-bear {
-  padding: 10px;
-  background-color: #d3d3d3;
-}
-/*First-paragraph*/
-.first {
-  margin-left: 0px;
-  overflow: auto;
-  display: block;
-}
-
-/*Second-container*/
-/*Second-paragraph*/
-.second {
-  margin-left: 0px;
-  overflow: auto;
-  display: block;
-}
-
-/*Third-container*/
-/*img*/
-.happy-bear {
-  padding: 10px;
-  background-color: #d3d3d3;
-}
-/*Third-paragraph*/
-.third {
-  margin-left: 0px;
-  overflow: auto;
-  display: block;
-}
-
-/*Fourth-container*/
-/*Fourth-paragraph*/
-.fourth {
-  margin-left: 0px;
-  overflow: auto;
-  display: block;
 }
 
 /*https://developer.mozilla.org/samples/cssref/css-positioning.html*/
